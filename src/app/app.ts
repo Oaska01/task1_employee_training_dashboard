@@ -11,8 +11,7 @@ import { TrainingList } from './components/training-list/training-list';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, EmployeeList, Dashboard, TrainingForm, TrainingList,
-    RouterModule, RouterLink
+  imports: [RouterOutlet, Navbar,RouterModule,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'

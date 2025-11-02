@@ -1,1 +1,30 @@
-<p>employee-list works!</p>
+
+<div class="card shadow-sm p-4 mx-auto" style="background-color: white; border-radius: 10px; width: 75%;">
+    <h2>Employee List</h2>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Eamil</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Age</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>JohnDoe@gmail.com</td>
+                <td>012345</td>
+                <td>32</td>
+                <td><button type="button" class="btn btn-primary btn-sm">Edit</button></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="text-start">
+        <button type="submit" class="btn btn-primary" routerLink="/employee-form">Add Employee</button>
+    </div>
+
+</div>
