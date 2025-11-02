@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { Navbar } from "../navbar/navbar";
 import { TrainingForm } from "../training-form/training-form";
+import { TrainingList } from '../training-list/training-list';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [Navbar, TrainingForm],
+  imports: [TrainingForm, TrainingList],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.css',
 })

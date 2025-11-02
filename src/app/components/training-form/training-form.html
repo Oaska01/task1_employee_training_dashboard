@@ -7,34 +7,35 @@
 </head>
 <body>
 
-    <div class="container-fluid d-flex justify-content-center align-items-center min-vh-100 bg-light">
-        <div class="card shadow-sm p-4" style="width: 95%; background-color: white; border-radius: 10px;">
-            <h1>Training From</h1>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Training Name</label>
-                    <input type="text" class="form-control" id="trainingName" placeholder="Training Name" aria-describedby="emailHelp">
-                </div>
 
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Trainer</label>
-                    <input type="text" class="form-control" id="trainer" placeholder="Trainer">
-                </div>
-
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Start Date</label>
-                    <input type="date" class="form-control" placeholder="Start Date" id="startDate">
-                </div>
-
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Description</label>
-                    <input type="text" class="form-control" placeholder="Description" id="description">
-                </div>
-
-                <button type="submit" class="btn btn-primary w-100">Submit</button>
-            </form>
+<div class="card shadow-sm p-4 mb-4 mx-auto" style="background-color: white; border-radius: 10px; width: 75%;">
+    <h1>Training Form</h1>
+    <form>
+        <div class="mb-3">
+            <label for="trainingName" class="form-label">Training Name</label>
+            <input type="text" class="form-control" id="trainingName" placeholder="Training Name">
         </div>
-    </div>
+
+        <div class="mb-3">
+            <label for="trainer" class="form-label">Trainer</label>
+            <input type="text" class="form-control" id="trainer" placeholder="Trainer">
+        </div>
+
+        <div class="mb-3">
+            <label for="startDate" class="form-label">Start Date</label>
+            <input type="date" class="form-control" placeholder="Start Date" id="startDate">
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <input type="text" class="form-control" placeholder="Description" id="description">
+        </div>
+
+        <div class="text-start">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
 
 </body>
 </html>
