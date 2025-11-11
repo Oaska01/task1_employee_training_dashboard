@@ -21,16 +21,16 @@ export class ReactiveForm {
 
   constructor ( private fb : FormBuilder){}
 
-  // ngOnInit(): void {
-  //   this.trainingForm = this.fb.group({
-  //     course : [''],
+  ngOnInit(): void {
+    this.trainingForm = this.fb.group({
+      course : [''],
       
-  //   })
-  // }
+    })
+  }
 
-  // trainingForm = this.fb.group({
+  trainingForm = this.fb.group({
 
-  // })
+  })
 
   submit()
   {
