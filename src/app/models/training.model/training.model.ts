@@ -11,6 +11,7 @@ export class TrainingModel {
   title : string;
   trainer : string;
   date : Date;
+  description : string;
   status : string;
 
   constructor ()
@@ -18,6 +19,7 @@ export class TrainingModel {
     this.title = "",
     this.trainer = "",
     this.date = new Date(),
+    this.description = ""
     this.status = ""
   }
 }
